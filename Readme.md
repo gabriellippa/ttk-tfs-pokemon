@@ -5,7 +5,7 @@
 ### Build Status
 
 ## Esse Servidor foi desenvolvido pelo [POTA](https://pokedashpota.vercel.app/pt).
-### Esta fork se baseia nesta Não existe um Repo ou fonte atual para melhorias dessa base.
+### Até agora Não existia um Repo ou fonte atual para melhorias dessa base.
 ### Lembre-se
 A master sempre conterá a versão mais atualizada do otclient relativo a versão da tfs.
 
