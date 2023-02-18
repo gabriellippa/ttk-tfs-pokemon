@@ -4,7 +4,7 @@
 
 ### Build Status
 
-## Esse cliente foi desenvolvido pelo [POTA](https://pokedashpota.vercel.app/pt).
+## Esse Servidor foi desenvolvido pelo [POTA](https://pokedashpota.vercel.app/pt).
 ### Esta fork se baseia nesta Não existe um Repo ou fonte atual para melhorias dessa base.
 ### Lembre-se
 A master sempre conterá a versão mais atualizada do otclient relativo a versão da tfs.
@@ -51,4 +51,4 @@ Em breve...
 [OTC-TK](https://github.com/TheTibiaking/tfs-pokemon-tibiaking/wiki)
 
 ### CREDITS:
-Edubart, Mehah, TibiaKing Team
+Pota, TibiaKing Team
