@@ -20,19 +20,19 @@
 		<attribute key="description" value="Contem uma box aleatoria do jogo. Somente box de pokemon." />
 	</item>
 	<item id="26764" article="a" name="box 0">
-		<attribute key="description" value="Contem um Pokemon de Kanto tier baixo. 3% de chance de vir tera." />
+		<attribute key="description" value="Contem um Pokemon de Kanto tier baixo." />
 	</item>
 	<item id="26812" article="a" name="box 1">
-		<attribute key="description" value="Contem um Pokemon de Kanto. 1% de chance de vir tera." />
+		<attribute key="description" value="Contem um Pokemon de Kanto." />
 	</item>
 	<item id="26813" article="a" name="box 2">
-		<attribute key="description" value="Contem um Pokemon de Johto. 1% de chance de vir tera." />
+		<attribute key="description" value="Contem um Pokemon de Johto." />
 	</item>
 	<item id="26814" article="a" name="box 3">
-		<attribute key="description" value="Contem um Pokemon de Hoenn. 1% de chance de vir tera." />
+		<attribute key="description" value="Contem um Pokemon de Hoenn." />
 	</item>
 	<item id="26815" article="a" name="box 4">
-		<attribute key="description" value="Contem um Pokemon de Sinnoh. 1% de chance de vir tera." />
+		<attribute key="description" value="Contem um Pokemon de Sinnoh." />
 	</item>
 	<item id="26816" article="a" name="box 5">
 		<attribute key="description" value="???" />
