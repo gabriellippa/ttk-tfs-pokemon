@@ -1,7 +1,316 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <monsters>
-	<!-- Utility -->
 	
+	<!-- Gen 1 -->
+	
+	<monster name="Bulbasaur" file="gen1/Grama/Venenoso/bulbasaur.xml" />
+	<monster name="Ivysaur" file="gen1/Grama/Venenoso/ivysaur.xml" />
+	<monster name="Venusaur" file="gen1/Grama/Venenoso/venusaur.xml" />
+	<monster name="Charmander" file="gen1/Fogo/charmander.xml" />
+	<monster name="Charmeleon" file="gen1/Fogo/charmeleon.xml" />
+	<monster name="Charizard" file="gen1/Fogo/Voador/charizard.xml" />
+	<monster name="Squirtle" file="gen1/Agua/squirtle.xml" />
+	<monster name="Wartortle" file="gen1/Agua/wartortle.xml" />
+	<monster name="Blastoise" file="gen1/Agua/blastoise.xml" />
+	<monster name="Caterpie" file="gen1/Inseto/caterpie.xml" />
+	<monster name="Metapod" file="gen1/Inseto/metapod.xml" />
+	<monster name="Butterfree" file="gen1/Inseto/Voador/butterfree.xml" />
+	<monster name="Weedle" file="gen1/Inseto/Venenoso/weedle.xml" />
+	<monster name="Kakuna" file="gen1/Inseto/Venenoso/kakuna.xml" />
+	<monster name="Beedrill" file="gen1/Inseto/Venenoso/beedrill.xml" />
+	<monster name="Pidgey" file="gen1/Normal/Voador/pidgey.xml" />
+	<monster name="Pidgeotto" file="gen1/Normal/Voador/pidgeotto.xml" />
+	<monster name="Pidgeot" file="gen1/Normal/Voador/pidgeot.xml" />
+	<monster name="Rattata" file="gen1/Normal/rattata.xml" />
+	<monster name="Raticate" file="gen1/Normal/raticate.xml" />
+	<monster name="Spearow" file="gen1/Normal/Voador/spearow.xml" />
+	<monster name="Fearow" file="gen1/Normal/Voador/fearow.xml" />
+	<monster name="Ekans" file="gen1/Venenoso/ekans.xml" />
+	<monster name="Arbok" file="gen1/Venenoso/arbok.xml" />
+	<monster name="Pikachu" file="gen1/Eletrico/pikachu.xml" />
+	<monster name="Raichu" file="gen1/Eletrico/raichu.xml" />
+	<monster name="Sandshrew" file="gen1/Terra/sandshrew.xml" />
+	<monster name="Sandslash" file="gen1/Terra/sandslash.xml" />
+	<monster name="Nidoran Female" file="gen1/Venenoso/nidoran female.xml" />
+	<monster name="Nidorina" file="gen1/Venenoso/nidorina.xml" />
+	<monster name="Nidoqueen" file="gen1/Venenoso/Terra/nidoqueen.xml" />
+	<monster name="Nidoran Male" file="gen1/Venenoso/nidoran male.xml" />
+	<monster name="Nidorino" file="gen1/Venenoso/nidorino.xml" />
+	<monster name="Nidoking" file="gen1/Venenoso/Terra/nidoking.xml" />
+	<monster name="Clefairy" file="gen1/Fada/clefairy.xml" />
+	<monster name="Clefable" file="gen1/Fada/clefable.xml" />
+	<monster name="Vulpix" file="gen1/Fogo/vulpix.xml" />
+	<monster name="Ninetales" file="gen1/Fogo/ninetales.xml" />
+	<monster name="Jigglypuff" file="gen1/Normal/Fada/jigglypuff.xml" />
+	<monster name="Wigglytuff" file="gen1/Normal/Fada/wigglytuff.xml" />
+	<monster name="Zubat" file="gen1/Venenoso/Voador/zubat.xml" />
+	<monster name="Golbat" file="gen1/Venenoso/Voador/golbat.xml" />
+	<monster name="Oddish" file="gen1/Grama/Venenoso/oddish.xml" />
+	<monster name="Gloom" file="gen1/Grama/Venenoso/gloom.xml" />
+	<monster name="Vileplume" file="gen1/Grama/Venenoso/vileplume.xml" />
+	<monster name="Paras" file="gen1/Inseto/Grama/paras.xml" />
+	<monster name="Parasect" file="gen1/Inseto/Grama/parasect.xml" />
+	<monster name="Venonat" file="gen1/Inseto/Venenoso/venonat.xml" />
+	<monster name="Venomoth" file="gen1/Inseto/Venenoso/venomoth.xml" />
+	<monster name="Diglett" file="gen1/Terra/diglett.xml" />
+	<monster name="Dugtrio" file="gen1/Terra/dugtrio.xml" />
+	<monster name="Meowth" file="gen1/Normal/meowth.xml" />
+	<monster name="Persian" file="gen1/Normal/persian.xml" />
+	<monster name="Psyduck" file="gen1/Agua/psyduck.xml" />
+	<monster name="Golduck" file="gen1/Agua/golduck.xml" />
+	<monster name="Mankey" file="gen1/Lutador/mankey.xml" />
+	<monster name="Primeape" file="gen1/Lutador/primeape.xml" />
+	<monster name="Growlithe" file="gen1/Fogo/growlithe.xml" />
+	<monster name="Arcanine" file="gen1/Fogo/arcanine.xml" />
+	<monster name="Poliwag" file="gen1/Agua/poliwag.xml" />
+	<monster name="Poliwhirl" file="gen1/Agua/poliwhirl.xml" />
+	<monster name="Poliwrath" file="gen1/Agua/Lutador/poliwrath.xml" />
+	<monster name="Abra" file="gen1/Psiquico/abra.xml" />
+	<monster name="Kadabra" file="gen1/Psiquico/kadabra.xml" />
+	<monster name="Alakazam" file="gen1/Psiquico/alakazam.xml" />
+	<monster name="Machop" file="gen1/Lutador/machop.xml" />
+	<monster name="Machoke" file="gen1/Lutador/machoke.xml" />
+	<monster name="Machamp" file="gen1/Lutador/machamp.xml" />
+	<monster name="Bellsprout" file="gen1/Grama/Venenoso/bellsprout.xml" />
+	<monster name="Weepinbell" file="gen1/Grama/Venenoso/weepinbell.xml" />
+	<monster name="Victreebel" file="gen1/Grama/Venenoso/victreebel.xml" />
+	<monster name="Tentacool" file="gen1/Agua/Venenoso/tentacool.xml" />
+	<monster name="Tentacruel" file="gen1/Agua/Venenoso/tentacruel.xml" />
+	<monster name="Geodude" file="gen1/Pedra/Terra/geodude.xml" />
+	<monster name="Graveler" file="gen1/Pedra/Terra/graveler.xml" />
+	<monster name="Golem" file="gen1/Pedra/Terra/golem.xml" />
+	<monster name="Ponyta" file="gen1/Fogo/ponyta.xml" />
+	<monster name="Rapidash" file="gen1/Fogo/rapidash.xml" />
+	<monster name="Slowpoke" file="gen1/Agua/Psiquico/slowpoke.xml" />
+	<monster name="Slowbro" file="gen1/Agua/Psiquico/slowbro.xml" />
+	<monster name="Magnemite" file="gen1/Eletrico/magnemite.xml" />
+	<monster name="Magneton" file="gen1/Eletrico/magneton.xml" />
+	<monster name="Farfetch'd" file="gen1/Normal/Voador/farfetch'd.xml" />
+	<monster name="Doduo" file="gen1/Normal/Voador/doduo.xml" />
+	<monster name="Dodrio" file="gen1/Normal/Voador/dodrio.xml" />
+	<monster name="Seel" file="gen1/Agua/seel.xml" />
+	<monster name="Dewgong" file="gen1/Agua/Gelo/dewgong.xml" />
+	<monster name="Grimer" file="gen1/Venenoso/grimer.xml" />
+	<monster name="Muk" file="gen1/Venenoso/muk.xml" />
+	<monster name="Shellder" file="gen1/Agua/shellder.xml" />
+	<monster name="Cloyster" file="gen1/Agua/Gelo/cloyster.xml" />
+	<monster name="Gastly" file="gen1/Fantasma/Venenoso/gastly.xml" />
+	<monster name="Haunter" file="gen1/Fantasma/Venenoso/haunter.xml" />
+	<monster name="Gengar" file="gen1/Fantasma/Venenoso/gengar.xml" />
+	<monster name="Onix" file="gen1/Pedra/Terra/onix.xml" />
+	<monster name="Drowzee" file="gen1/Psiquico/drowzee.xml" />
+	<monster name="Hypno" file="gen1/Psiquico/hypno.xml" />
+	<monster name="Krabby" file="gen1/Agua/krabby.xml" />
+	<monster name="Kingler" file="gen1/Agua/kingler.xml" />
+	<monster name="Voltorb" file="gen1/Eletrico/voltorb.xml" />
+	<monster name="Electrode" file="gen1/Eletrico/electrode.xml" />
+	<monster name="Exeggcute" file="gen1/Grama/Psiquico/exeggcute.xml" />
+	<monster name="Exeggutor" file="gen1/Grama/Psiquico/exeggutor.xml" />
+	<monster name="Cubone" file="gen1/Terra/cubone.xml" />
+	<monster name="Marowak" file="gen1/Terra/marowak.xml" />
+	<monster name="Hitmonlee" file="gen1/Lutador/hitmonlee.xml" />
+	<monster name="Hitmonchan" file="gen1/Lutador/hitmonchan.xml" />
+	<monster name="Lickitung" file="gen1/Normal/lickitung.xml" />
+	<monster name="Koffing" file="gen1/Venenoso/koffing.xml" />
+	<monster name="Weezing" file="gen1/Venenoso/weezing.xml" />
+	<monster name="Rhyhorn" file="gen1/Terra/Pedra/rhyhorn.xml" />
+	<monster name="Rhydon" file="gen1/Terra/Pedra/rhydon.xml" />
+	<monster name="Chansey" file="gen1/Normal/chansey.xml" />
+	<monster name="Tangela" file="gen1/Grama/tangela.xml" />
+	<monster name="Kangaskhan" file="gen1/Normal/kangaskhan.xml" />
+	<monster name="Horsea" file="gen1/Agua/horsea.xml" />
+	<monster name="Seadra" file="gen1/Agua/seadra.xml" />
+	<monster name="Goldeen" file="gen1/Agua/goldeen.xml" />
+	<monster name="Seaking" file="gen1/Agua/seaking.xml" />
+	<monster name="Staryu" file="gen1/Agua/staryu.xml" />
+	<monster name="Starmie" file="gen1/Agua/Psiquico/starmie.xml" />
+	<monster name="Mr. Mime" file="gen1/Psiquico/Fada/mr. mime.xml" />
+	<monster name="Scyther" file="gen1/Inseto/Voador/scyther.xml" />
+	<monster name="Jynx" file="gen1/Gelo/Psiquico/jynx.xml" />
+	<monster name="Electabuzz" file="gen1/Eletrico/electabuzz.xml" />
+	<monster name="Magmar" file="gen1/Fogo/magmar.xml" />
+	<monster name="Pinsir" file="gen1/Inseto/pinsir.xml" />
+	<monster name="Tauros" file="gen1/Normal/tauros.xml" />
+	<monster name="Magikarp" file="gen1/Agua/magikarp.xml" />
+	<monster name="Gyarados" file="gen1/Agua/Voador/gyarados.xml" />
+	<monster name="Lapras" file="gen1/Agua/Gelo/lapras.xml" />
+	<monster name="Ditto" file="gen1/Normal/ditto.xml" />
+	<monster name="Eevee" file="gen1/Normal/eevee.xml" />
+	<monster name="Vaporeon" file="gen1/Agua/vaporeon.xml" />
+	<monster name="Jolteon" file="gen1/Eletrico/jolteon.xml" />
+	<monster name="Flareon" file="gen1/Fogo/flareon.xml" />
+	<monster name="Porygon" file="gen1/Normal/porygon.xml" />
+	<monster name="Omanyte" file="gen1/Pedra/Agua/omanyte.xml" />
+	<monster name="Omastar" file="gen1/Pedra/Agua/omastar.xml" />
+	<monster name="Kabuto" file="gen1/Pedra/Agua/kabuto.xml" />
+	<monster name="Kabutops" file="gen1/Pedra/Agua/kabutops.xml" />
+	<monster name="Aerodactyl" file="gen1/Pedra/Voador/aerodactyl.xml" />
+	<monster name="Snorlax" file="gen1/Normal/snorlax.xml" />
+	<monster name="Articuno" file="gen1/Gelo/Voador/articuno.xml" />
+	<monster name="Zapdos" file="gen1/Eletrico/Voador/zapdos.xml" />
+	<monster name="Moltres" file="gen1/Fogo/Voador/moltres.xml" />
+	<monster name="Dratini" file="gen1/Dragao/dratini.xml" />
+	<monster name="Dragonair" file="gen1/Dragao/dragonair.xml" />
+	<monster name="Dragonite" file="gen1/Dragao/Voador/dragonite.xml" />
+	<monster name="Mewtwo" file="gen1/Psiquico/mewtwo.xml" />
+	<monster name="Mew" file="gen1/Psiquico/mew.xml" />
+
+	<!-- Shiny Gen 1 -->
+	
+	<monster name="Shiny Bulbasaur" file="shiny/gen1/Grama/Venenoso/shiny bulbasaur.xml" />
+	<monster name="Shiny Ivysaur" file="shiny/gen1/Grama/Venenoso/shiny ivysaur.xml" />
+	<monster name="Shiny Venusaur" file="shiny/gen1/Grama/Venenoso/shiny venusaur.xml" />
+	<monster name="Shiny Charmander" file="shiny/gen1/Fogo/shiny charmander.xml" />
+	<monster name="Shiny Charmeleon" file="shiny/gen1/Fogo/shiny charmeleon.xml" />
+	<monster name="Shiny Charizard" file="shiny/gen1/Fogo/Voador/shiny charizard.xml" />
+	<monster name="Shiny Squirtle" file="shiny/gen1/Agua/shiny squirtle.xml" />
+	<monster name="Shiny Wartortle" file="shiny/gen1/Agua/shiny wartortle.xml" />
+	<monster name="Shiny Blastoise" file="shiny/gen1/Agua/shiny blastoise.xml" />
+	<monster name="Shiny Caterpie" file="shiny/gen1/Inseto/shiny caterpie.xml" />
+	<monster name="Shiny Metapod" file="shiny/gen1/Inseto/shiny metapod.xml" />
+	<monster name="Shiny Butterfree" file="shiny/gen1/Inseto/Voador/shiny butterfree.xml" />
+	<monster name="Shiny Weedle" file="shiny/gen1/Inseto/Venenoso/shiny weedle.xml" />
+	<monster name="Shiny Kakuna" file="shiny/gen1/Inseto/Venenoso/shiny kakuna.xml" />
+	<monster name="Shiny Beedrill" file="shiny/gen1/Inseto/Venenoso/shiny beedrill.xml" />
+	<monster name="Shiny Pidgey" file="shiny/gen1/Normal/Voador/shiny pidgey.xml" />
+	<monster name="Shiny Pidgeotto" file="shiny/gen1/Normal/Voador/shiny pidgeotto.xml" />
+	<monster name="Shiny Pidgeot" file="shiny/gen1/Normal/Voador/shiny pidgeot.xml" />
+	<monster name="Shiny Rattata" file="shiny/gen1/Normal/shiny rattata.xml" />
+	<monster name="Shiny Raticate" file="shiny/gen1/Normal/shiny raticate.xml" />
+	<monster name="Shiny Spearow" file="shiny/gen1/Normal/Voador/shiny spearow.xml" />
+	<monster name="Shiny Fearow" file="shiny/gen1/Normal/Voador/shiny fearow.xml" />
+	<monster name="Shiny Ekans" file="shiny/gen1/Venenoso/shiny ekans.xml" />
+	<monster name="Shiny Arbok" file="shiny/gen1/Venenoso/shiny arbok.xml" />
+	<monster name="Shiny Pikachu" file="shiny/gen1/Eletrico/shiny pikachu.xml" />
+	<monster name="Shiny Raichu" file="shiny/gen1/Eletrico/shiny raichu.xml" />
+	<monster name="Shiny Sandshrew" file="shiny/gen1/Terra/shiny sandshrew.xml" />
+	<monster name="Shiny Sandslash" file="shiny/gen1/Terra/shiny sandslash.xml" />
+	<monster name="Shiny Nidoran Female" file="shiny/gen1/Venenoso/shiny nidoran female.xml" />
+	<monster name="Shiny Nidorina" file="shiny/gen1/Venenoso/shiny nidorina.xml" />
+	<monster name="Shiny Nidoqueen" file="shiny/gen1/Venenoso/Terra/shiny nidoqueen.xml" />
+	<monster name="Shiny Nidoran Male" file="shiny/gen1/Venenoso/shiny nidoran male.xml" />
+	<monster name="Shiny Nidorino" file="shiny/gen1/Venenoso/shiny nidorino.xml" />
+	<monster name="Shiny Nidoking" file="shiny/gen1/Venenoso/Terra/shiny nidoking.xml" />
+	<monster name="Shiny Clefairy" file="shiny/gen1/Fada/shiny clefairy.xml" />
+	<monster name="Shiny Clefable" file="shiny/gen1/Fada/shiny clefable.xml" />
+	<monster name="Shiny Vulpix" file="shiny/gen1/Fogo/shiny vulpix.xml" />
+	<monster name="Shiny Ninetales" file="shiny/gen1/Fogo/shiny ninetales.xml" />
+	<monster name="Shiny Jigglypuff" file="shiny/gen1/Normal/Fada/shiny jigglypuff.xml" />
+	<monster name="Shiny Wigglytuff" file="shiny/gen1/Normal/Fada/shiny wigglytuff.xml" />
+	<monster name="Shiny Zubat" file="shiny/gen1/Venenoso/Voador/shiny zubat.xml" />
+	<monster name="Shiny Golbat" file="shiny/gen1/Venenoso/Voador/shiny golbat.xml" />
+	<monster name="Shiny Oddish" file="shiny/gen1/Grama/Venenoso/shiny oddish.xml" />
+	<monster name="Shiny Gloom" file="shiny/gen1/Grama/Venenoso/shiny gloom.xml" />
+	<monster name="Shiny Vileplume" file="shiny/gen1/Grama/Venenoso/shiny vileplume.xml" />
+	<monster name="Shiny Paras" file="shiny/gen1/Inseto/Grama/shiny paras.xml" />
+	<monster name="Shiny Parasect" file="shiny/gen1/Inseto/Grama/shiny parasect.xml" />
+	<monster name="Shiny Venonat" file="shiny/gen1/Inseto/Venenoso/shiny venonat.xml" />
+	<monster name="Shiny Venomoth" file="shiny/gen1/Inseto/Venenoso/shiny venomoth.xml" />
+	<monster name="Shiny Diglett" file="shiny/gen1/Terra/shiny diglett.xml" />
+	<monster name="Shiny Dugtrio" file="shiny/gen1/Terra/shiny dugtrio.xml" />
+	<monster name="Shiny Meowth" file="shiny/gen1/Normal/shiny meowth.xml" />
+	<monster name="Shiny Persian" file="shiny/gen1/Normal/shiny persian.xml" />
+	<monster name="Shiny Psyduck" file="shiny/gen1/Agua/shiny psyduck.xml" />
+	<monster name="Shiny Golduck" file="shiny/gen1/Agua/shiny golduck.xml" />
+	<monster name="Shiny Mankey" file="shiny/gen1/Lutador/shiny mankey.xml" />
+	<monster name="Shiny Primeape" file="shiny/gen1/Lutador/shiny primeape.xml" />
+	<monster name="Shiny Growlithe" file="shiny/gen1/Fogo/shiny growlithe.xml" />
+	<monster name="Shiny Arcanine" file="shiny/gen1/Fogo/shiny arcanine.xml" />
+	<monster name="Shiny Poliwag" file="shiny/gen1/Agua/shiny poliwag.xml" />
+	<monster name="Shiny Poliwhirl" file="shiny/gen1/Agua/shiny poliwhirl.xml" />
+	<monster name="Shiny Poliwrath" file="shiny/gen1/Agua/Lutador/shiny poliwrath.xml" />
+	<monster name="Shiny Abra" file="shiny/gen1/Psiquico/shiny abra.xml" />
+	<monster name="Shiny Kadabra" file="shiny/gen1/Psiquico/shiny kadabra.xml" />
+	<monster name="Shiny Alakazam" file="shiny/gen1/Psiquico/shiny alakazam.xml" />
+	<monster name="Shiny Machop" file="shiny/gen1/Lutador/shiny machop.xml" />
+	<monster name="Shiny Machoke" file="shiny/gen1/Lutador/shiny machoke.xml" />
+	<monster name="Shiny Machamp" file="shiny/gen1/Lutador/shiny machamp.xml" />
+	<monster name="Shiny Bellsprout" file="shiny/gen1/Grama/Venenoso/shiny bellsprout.xml" />
+	<monster name="Shiny Weepinbell" file="shiny/gen1/Grama/Venenoso/shiny weepinbell.xml" />
+	<monster name="Shiny Victreebel" file="shiny/gen1/Grama/Venenoso/shiny victreebel.xml" />
+	<monster name="Shiny Tentacool" file="shiny/gen1/Agua/Venenoso/shiny tentacool.xml" />
+	<monster name="Shiny Tentacruel" file="shiny/gen1/Agua/Venenoso/shiny tentacruel.xml" />
+	<monster name="Shiny Geodude" file="shiny/gen1/Pedra/Terra/shiny geodude.xml" />
+	<monster name="Shiny Graveler" file="shiny/gen1/Pedra/Terra/shiny graveler.xml" />
+	<monster name="Shiny Golem" file="shiny/gen1/Pedra/Terra/shiny golem.xml" />
+	<monster name="Shiny Ponyta" file="shiny/gen1/Fogo/shiny ponyta.xml" />
+	<monster name="Shiny Rapidash" file="shiny/gen1/Fogo/shiny rapidash.xml" />
+	<monster name="Shiny Slowpoke" file="shiny/gen1/Agua/Psiquico/shiny slowpoke.xml" />
+	<monster name="Shiny Slowbro" file="shiny/gen1/Agua/Psiquico/shiny slowbro.xml" />
+	<monster name="Shiny Magnemite" file="shiny/gen1/Eletrico/shiny magnemite.xml" />
+	<monster name="Shiny Magneton" file="shiny/gen1/Eletrico/shiny magneton.xml" />
+	<monster name="Shiny Farfetch'd" file="shiny/gen1/Normal/Voador/shiny farfetch'd.xml" />
+	<monster name="Shiny Doduo" file="shiny/gen1/Normal/Voador/shiny doduo.xml" />
+	<monster name="Shiny Dodrio" file="shiny/gen1/Normal/Voador/shiny dodrio.xml" />
+	<monster name="Shiny Seel" file="shiny/gen1/Agua/shiny seel.xml" />
+	<monster name="Shiny Dewgong" file="shiny/gen1/Agua/Gelo/shiny dewgong.xml" />
+	<monster name="Shiny Grimer" file="shiny/gen1/Venenoso/shiny grimer.xml" />
+	<monster name="Shiny Muk" file="shiny/gen1/Venenoso/shiny muk.xml" />
+	<monster name="Shiny Shellder" file="shiny/gen1/Agua/shiny shellder.xml" />
+	<monster name="Shiny Cloyster" file="shiny/gen1/Agua/Gelo/shiny cloyster.xml" />
+	<monster name="Shiny Gastly" file="shiny/gen1/Fantasma/Venenoso/shiny gastly.xml" />
+	<monster name="Shiny Haunter" file="shiny/gen1/Fantasma/Venenoso/shiny haunter.xml" />
+	<monster name="Shiny Gengar" file="shiny/gen1/Fantasma/Venenoso/shiny gengar.xml" />
+	<monster name="Shiny Onix" file="shiny/gen1/Pedra/Terra/shiny onix.xml" />
+	<monster name="Shiny Drowzee" file="shiny/gen1/Psiquico/shiny drowzee.xml" />
+	<monster name="Shiny Hypno" file="shiny/gen1/Psiquico/shiny hypno.xml" />
+	<monster name="Shiny Krabby" file="shiny/gen1/Agua/shiny krabby.xml" />
+	<monster name="Shiny Kingler" file="shiny/gen1/Agua/shiny kingler.xml" />
+	<monster name="Shiny Voltorb" file="shiny/gen1/Eletrico/shiny voltorb.xml" />
+	<monster name="Shiny Electrode" file="shiny/gen1/Eletrico/shiny electrode.xml" />
+	<monster name="Shiny Exeggcute" file="shiny/gen1/Grama/Psiquico/shiny exeggcute.xml" />
+	<monster name="Shiny Exeggutor" file="shiny/gen1/Grama/Psiquico/shiny exeggutor.xml" />
+	<monster name="Shiny Cubone" file="shiny/gen1/Terra/shiny cubone.xml" />
+	<monster name="Shiny Marowak" file="shiny/gen1/Terra/shiny marowak.xml" />
+	<monster name="Shiny Hitmonlee" file="shiny/gen1/Lutador/shiny hitmonlee.xml" />
+	<monster name="Shiny Hitmonchan" file="shiny/gen1/Lutador/shiny hitmonchan.xml" />
+	<monster name="Shiny Lickitung" file="shiny/gen1/Normal/shiny lickitung.xml" />
+	<monster name="Shiny Koffing" file="shiny/gen1/Venenoso/shiny koffing.xml" />
+	<monster name="Shiny Weezing" file="shiny/gen1/Venenoso/shiny weezing.xml" />
+	<monster name="Shiny Rhyhorn" file="shiny/gen1/Terra/Pedra/shiny rhyhorn.xml" />
+	<monster name="Shiny Rhydon" file="shiny/gen1/Terra/Pedra/shiny rhydon.xml" />
+	<monster name="Shiny Chansey" file="shiny/gen1/Normal/shiny chansey.xml" />
+	<monster name="Shiny Tangela" file="shiny/gen1/Grama/shiny tangela.xml" />
+	<monster name="Shiny Kangaskhan" file="shiny/gen1/Normal/shiny kangaskhan.xml" />
+	<monster name="Shiny Horsea" file="shiny/gen1/Agua/shiny horsea.xml" />
+	<monster name="Shiny Seadra" file="shiny/gen1/Agua/shiny seadra.xml" />
+	<monster name="Shiny Goldeen" file="shiny/gen1/Agua/shiny goldeen.xml" />
+	<monster name="Shiny Seaking" file="shiny/gen1/Agua/shiny seaking.xml" />
+	<monster name="Shiny Staryu" file="shiny/gen1/Agua/shiny staryu.xml" />
+	<monster name="Shiny Starmie" file="shiny/gen1/Agua/Psiquico/shiny starmie.xml" />
+	<monster name="Shiny Mr. Mime" file="shiny/gen1/Psiquico/Fada/shiny mr. mime.xml" />
+	<monster name="Shiny Scyther" file="shiny/gen1/Inseto/Voador/shiny scyther.xml" />
+	<monster name="Shiny Jynx" file="shiny/gen1/Gelo/Psiquico/shiny jynx.xml" />
+	<monster name="Shiny Electabuzz" file="shiny/gen1/Eletrico/shiny electabuzz.xml" />
+	<monster name="Shiny Magmar" file="shiny/gen1/Fogo/shiny magmar.xml" />
+	<monster name="Shiny Pinsir" file="shiny/gen1/Inseto/shiny pinsir.xml" />
+	<monster name="Shiny Tauros" file="shiny/gen1/Normal/shiny tauros.xml" />
+	<monster name="Shiny Magikarp" file="shiny/gen1/Agua/shiny magikarp.xml" />
+	<monster name="Shiny Gyarados" file="shiny/gen1/Agua/Voador/shiny gyarados.xml" />
+	<monster name="Shiny Lapras" file="shiny/gen1/Agua/Gelo/shiny lapras.xml" />
+	<monster name="Shiny Ditto" file="shiny/gen1/Normal/shiny ditto.xml" />
+	<monster name="Shiny Eevee" file="shiny/gen1/Normal/shiny eevee.xml" />
+	<monster name="Shiny Vaporeon" file="shiny/gen1/Agua/shiny vaporeon.xml" />
+	<monster name="Shiny Jolteon" file="shiny/gen1/Eletrico/shiny jolteon.xml" />
+	<monster name="Shiny Flareon" file="shiny/gen1/Fogo/shiny flareon.xml" />
+	<monster name="Shiny Porygon" file="shiny/gen1/Normal/shiny porygon.xml" />
+	<monster name="Shiny Omanyte" file="shiny/gen1/Pedra/Agua/shiny omanyte.xml" />
+	<monster name="Shiny Omastar" file="shiny/gen1/Pedra/Agua/shiny omastar.xml" />
+	<monster name="Shiny Kabuto" file="shiny/gen1/Pedra/Agua/shiny kabuto.xml" />
+	<monster name="Shiny Kabutops" file="shiny/gen1/Pedra/Agua/shiny kabutops.xml" />
+	<monster name="Shiny Aerodactyl" file="shiny/gen1/Pedra/Voador/shiny aerodactyl.xml" />
+	<monster name="Shiny Snorlax" file="shiny/gen1/Normal/shiny snorlax.xml" />
+	<monster name="Shiny Articuno" file="shiny/gen1/Gelo/Voador/shiny articuno.xml" />
+	<monster name="Shiny Zapdos" file="shiny/gen1/Eletrico/Voador/shiny zapdos.xml" />
+	<monster name="Shiny Moltres" file="shiny/gen1/Fogo/Voador/shiny moltres.xml" />
+	<monster name="Shiny Dratini" file="shiny/gen1/Dragao/shiny dratini.xml" />
+	<monster name="Shiny Dragonair" file="shiny/gen1/Dragao/shiny dragonair.xml" />
+	<monster name="Shiny Dragonite" file="shiny/gen1/Dragao/Voador/shiny dragonite.xml" />
+	<monster name="Shiny Mewtwo" file="shiny/gen1/Psiquico/shiny mewtwo.xml" />
+	<monster name="Shiny Mew" file="shiny/gen1/Psiquico/shiny mew.xml" />
+
+	<!-- Utility -->
+	<!-- 	
 	<monster name="Missingno" file="utility/missingno.xml" />
 	<monster name="Squirtle Turret" file="utility/squirtle turret.xml" />
 	<monster name="Charmander Turret" file="utility/charmander turret.xml" />
@@ -102,164 +411,11 @@
 	<monster name="Hisuian Lilligant" file=".hisuian/hisuian lilligant.xml" />
 	<monster name="Hisuian Samurott" file=".hisuian/hisuian samurott.xml" />
 	<monster name="Hisuian Typhlosion" file=".hisuian/hisuian typhlosion.xml" />
-	<monster name="Hisuian Zoroark" file=".hisuian/hisuian zoroark.xml" />
-	
-	<!-- Gen 1 -->
-	
-	<monster name="Bulbasaur" file="gen1/Grama/Venenoso/bulbasaur.xml" />
-	<monster name="Ivysaur" file="gen1/Grama/Venenoso/ivysaur.xml" />
-	<monster name="Venusaur" file="gen1/Grama/Venenoso/venusaur.xml" />
-	<monster name="Charmander" file="gen1/Fogo/Voador/charmander.xml" />
-	<monster name="Charmeleon" file="gen1/Fogo/charmeleon.xml" />
-	<monster name="Charizard" file="gen1/Fogo/charizard.xml" />
-	<monster name="Squirtle" file="gen1/Agua/squirtle.xml" />
-	<monster name="Wartortle" file="gen1/Agua/wartortle.xml" />
-	<monster name="Blastoise" file="gen1/Agua/blastoise.xml" />
-	<monster name="Caterpie" file="gen1/Inseto/caterpie.xml" />
-	<monster name="Metapod" file="gen1/Inseto/metapod.xml" />
-	<monster name="Butterfree" file="gen1/Inseto/Voador/butterfree.xml" />
-	<monster name="Weedle" file="gen1/Inseto/Venenoso/weedle.xml" />
-	<monster name="Kakuna" file="gen1/Inseto/Venenoso/kakuna.xml" />
-	<monster name="Beedrill" file="gen1/Inseto/Venenoso/beedrill.xml" />
-	<monster name="Pidgey" file="gen1/Normal/Voador/pidgey.xml" />
-	<monster name="Pidgeotto" file="gen1/Normal/Voador/pidgeotto.xml" />
-	<monster name="Pidgeot" file="gen1/Normal/Voador/pidgeot.xml" />
-	<monster name="Rattata" file="gen1/Normal/rattata.xml" />
-	<monster name="Raticate" file="gen1/Normal/raticate.xml" />
-	<monster name="Spearow" file="gen1/Normal/Voador/spearow.xml" />
-	<monster name="Fearow" file="gen1/Normal/Voador/fearow.xml" />
-	<monster name="Ekans" file="gen1/Venenoso/ekans.xml" />
-	<monster name="Arbok" file="gen1/Venenoso/arbok.xml" />
-	<monster name="Pikachu" file="gen1/Eletrico/pikachu.xml" />
-	<monster name="Raichu" file="gen1/Eletrico/raichu.xml" />
-	<monster name="Sandshrew" file="gen1/Terra/sandshrew.xml" />
-	<monster name="Sandslash" file="gen1/Terra/sandslash.xml" />
-	<monster name="Nidoran Female" file="gen1/Venenoso/nidoran female.xml" />
-	<monster name="Nidorina" file="gen1/Venenoso/nidorina.xml" />
-	<monster name="Nidoqueen" file="gen1/Venenoso/Terra/nidoqueen.xml" />
-	<monster name="Nidoran Male" file="gen1/Venenoso/nidoran male.xml" />
-	<monster name="Nidorino" file="gen1/Venenoso/nidorino.xml" />
-	<monster name="Nidoking" file="gen1/Venenoso/Terra/nidoking.xml" />
-	<monster name="Clefairy" file="gen1/Fada/clefairy.xml" />
-	<monster name="Clefable" file="gen1/Fada/clefable.xml" />
-	<monster name="Vulpix" file="gen1/Fogo/vulpix.xml" />
-	<monster name="Ninetales" file="gen1/Fogo/ninetales.xml" />
-	<monster name="Jigglypuff" file="gen1/Normal/Fada/jigglypuff.xml" />
-	<monster name="Wigglytuff" file="gen1/Normal/Fada/wigglytuff.xml" />
-	<monster name="Zubat" file="gen1/Venenoso/zubat.xml" />
-	<monster name="Golbat" file="gen1/Venenoso/golbat.xml" />
-	<monster name="Oddish" file="gen1/Grama/Venenoso/oddish.xml" />
-	<monster name="Gloom" file="gen1/Grama/Venenoso/gloom.xml" />
-	<monster name="Vileplume" file="gen1/Grama/Venenoso/vileplume.xml" />
-	<monster name="Paras" file="gen1/Inseto/Venenoso/paras.xml" />
-	<monster name="Parasect" file="gen1/Inseto/Venenoso/parasect.xml" />
-	<monster name="Venonat" file="gen1/Inseto/Venenoso/venonat.xml" />
-	<monster name="Venomoth" file="gen1/Inseto/Venenoso/venomoth.xml" />
-	<monster name="Diglett" file="gen1/Terra/diglett.xml" />
-	<monster name="Dugtrio" file="gen1/Terra/dugtrio.xml" />
-	<monster name="Meowth" file="gen1/Normal/meowth.xml" />
-	<monster name="Persian" file="gen1/Normal/persian.xml" />
-	<monster name="Psyduck" file="gen1/Agua/psyduck.xml" />
-	<monster name="Golduck" file="gen1/Agua/golduck.xml" />
-	<monster name="Mankey" file="gen1/Lutador/mankey.xml" />
-	<monster name="Primeape" file="gen1/Lutador/primeape.xml" />
-	<monster name="Growlithe" file="gen1/Fogo/growlithe.xml" />
-	<monster name="Arcanine" file="gen1/Fogo/arcanine.xml" />
-	<monster name="Poliwag" file="gen1/Agua/poliwag.xml" />
-	<monster name="Poliwhirl" file="gen1/Agua/poliwhirl.xml" />
-	<monster name="Poliwrath" file="gen1/Agua/poliwrath.xml" />
-	<monster name="Abra" file="gen1/Psiquico/abra.xml" />
-	<monster name="Kadabra" file="gen1/Psiquico/kadabra.xml" />
-	<monster name="Alakazam" file="gen1/Psiquico/alakazam.xml" />
-	<monster name="Machop" file="gen1/Lutador/machop.xml" />
-	<monster name="Machoke" file="gen1/Lutador/machoke.xml" />
-	<monster name="Machamp" file="gen1/Lutador/machamp.xml" />
-	<monster name="Bellsprout" file="gen1/Grama/Venenoso/bellsprout.xml" />
-	<monster name="Weepinbell" file="gen1/Grama/Venenoso/weepinbell.xml" />
-	<monster name="Victreebel" file="gen1/Grama/Venenoso/victreebel.xml" />
-	<monster name="Tentacool" file="gen1/Agua/Venenoso/tentacool.xml" />
-	<monster name="Tentacruel" file="gen1/Agua/Venenoso/tentacruel.xml" />
-	<monster name="Geodude" file="gen1/Pedra/geodude.xml" />
-	<monster name="Graveler" file="gen1/Pedra/graveler.xml" />
-	<monster name="Golem" file="gen1/Pedra/golem.xml" />
-	<monster name="Ponyta" file="gen1/Fogo/ponyta.xml" />
-	<monster name="Rapidash" file="gen1/Fogo/rapidash.xml" />
-	<monster name="Slowpoke" file="gen1/Agua/Psiquico/slowpoke.xml" />
-	<monster name="Slowbro" file="gen1/Agua/Psiquico/slowbro.xml" />
-	<monster name="Magnemite" file="gen1/Eletrico/magnemite.xml" />
-	<monster name="Magneton" file="gen1/Eletrico/magneton.xml" />
-	<monster name="Farfetch'd" file="gen1/Normal/Voador/farfetch'd.xml" />
-	<monster name="Doduo" file="gen1/Normal/Voador/doduo.xml" />
-	<monster name="Dodrio" file="gen1/Normal/Voador/dodrio.xml" />
-	<monster name="Seel" file="gen1/Agua/seel.xml" />
-	<monster name="Dewgong" file="gen1/Agua/Gelo/dewgong.xml" />
-	<monster name="Grimer" file="gen1/Venenoso/grimer.xml" />
-	<monster name="Muk" file="gen1/Venenoso/muk.xml" />
-	<monster name="Shellder" file="gen1/Agua/Gelo/shellder.xml" />
-	<monster name="Cloyster" file="gen1/Agua/Gelo/cloyster.xml" />
-	<monster name="Gastly" file="gen1/Fantasma/Venenoso/gastly.xml" />
-	<monster name="Haunter" file="gen1/Fantasma/Venenoso/haunter.xml" />
-	<monster name="Gengar" file="gen1/Fantasma/Venenoso/gengar.xml" />
-	<monster name="Onix" file="gen1/Terra/onix.xml" />
-	<monster name="Drowzee" file="gen1/Psiquico/drowzee.xml" />
-	<monster name="Hypno" file="gen1/Psiquico/hypno.xml" />
-	<monster name="Krabby" file="gen1/Agua/krabby.xml" />
-	<monster name="Kingler" file="gen1/Agua/kingler.xml" />
-	<monster name="Voltorb" file="gen1/Eletrico/voltorb.xml" />
-	<monster name="Electrode" file="gen1/Eletrico/electrode.xml" />
-	<monster name="Exeggcute" file="gen1/Grama/Psiquico/exeggcute.xml" />
-	<monster name="Exeggutor" file="gen1/Grama/Psiquicoexeggutor.xml" />
-	<monster name="Cubone" file="gen1/Terra/cubone.xml" />
-	<monster name="Marowak" file="gen1/Terra/marowak.xml" />
-	<monster name="Hitmonlee" file="gen1/Lutador/hitmonlee.xml" />
-	<monster name="Hitmonchan" file="gen1/Lutador/hitmonchan.xml" />
-	<monster name="Lickitung" file="gen1/Normal/lickitung.xml" />
-	<monster name="Koffing" file="gen1/Venenoso/koffing.xml" />
-	<monster name="Weezing" file="gen1/Venenoso/weezing.xml" />
-	<monster name="Rhyhorn" file="gen1/Terra/Pedra/rhyhorn.xml" />
-	<monster name="Rhydon" file="gen1/Terra/Pedra/rhydon.xml" />
-	<monster name="Chansey" file="gen1/Normal/chansey.xml" />
-	<monster name="Tangela" file="gen1/Grama/tangela.xml" />
-	<monster name="Kangaskhan" file="gen1/Normal/kangaskhan.xml" />
-	<monster name="Horsea" file="gen1/Agua/horsea.xml" />
-	<monster name="Seadra" file="gen1/Agua/seadra.xml" />
-	<monster name="Goldeen" file="gen1/Agua/goldeen.xml" />
-	<monster name="Seaking" file="gen1/Agua/seaking.xml" />
-	<monster name="Staryu" file="gen1/Agua/staryu.xml" />
-	<monster name="Starmie" file="gen1/Agua/Psiquico/starmie.xml" />
-	<monster name="Mr. Mime" file="gen1/Psiquico/Fada/mr. mime.xml" />
-	<monster name="Scyther" file="gen1/Inseto/scyther.xml" />
-	<monster name="Jynx" file="gen1/Gelo/Psiquico/jynx.xml" />
-	<monster name="Electabuzz" file="gen1/Eletrico/electabuzz.xml" />
-	<monster name="Magmar" file="gen1/Fogo/magmar.xml" />
-	<monster name="Pinsir" file="gen1/Inseto/pinsir.xml" />
-	<monster name="Tauros" file="gen1/Normal/tauros.xml" />
-	<monster name="Magikarp" file="gen1/Agua/magikarp.xml" />
-	<monster name="Gyarados" file="gen1/Agua/Voador/gyarados.xml" />
-	<monster name="Lapras" file="gen1/Agua/Gelo/lapras.xml" />
-	<monster name="Ditto" file="gen1/Normal/ditto.xml" />
-	<monster name="Eevee" file="gen1/Nomal/eevee.xml" />
-	<monster name="Vaporeon" file="gen1/Agua/vaporeon.xml" />
-	<monster name="Jolteon" file="gen1/Eletrico/jolteon.xml" />
-	<monster name="Flareon" file="gen1/Fogo/flareon.xml" />
-	<monster name="Porygon" file="gen1/Normal/porygon.xml" />
-	<monster name="Omanyte" file="gen1/Pedra/Agua/omanyte.xml" />
-	<monster name="Omastar" file="gen1/Pedra/Agua/omastar.xml" />
-	<monster name="Kabuto" file="gen1/Pedra/Agua/kabuto.xml" />
-	<monster name="Kabutops" file="gen1/Pedra/Agua/kabutops.xml" />
-	<monster name="Aerodactyl" file="gen1/Pedra/Voador/aerodactyl.xml" />
-	<monster name="Snorlax" file="gen1/Normal/snorlax.xml" />
-	<monster name="Articuno" file="gen1/Gelo/Voador/articuno.xml" />
-	<monster name="Zapdos" file="gen1/Eletrico/Voador/zapdos.xml" />
-	<monster name="Moltres" file="gen1/Fogo/Voador/moltres.xml" />
-	<monster name="Dratini" file="gen1/Dragão/dratini.xml" />
-	<monster name="Dragonair" file="gen1/Dragão/dragonair.xml" />
-	<monster name="Dragonite" file="gen1/Dragão/Voador/dragonite.xml" />
-	<monster name="Mewtwo" file="gen1/Psiquico/mewtwo.xml" />
-	<monster name="Mew" file="gen1/Psiquico/mew.xml" />
+	<monster name="Hisuian Zoroark" file=".hisuian/hisuian zoroark.xml" /> 
+	-->
 	
 	<!-- Gen 2 -->
-	
+<!-- 	
 	<monster name="Chikorita" file="gen2/chikorita.xml" />
 	<monster name="Bayleef" file="gen2/bayleef.xml" />
 	<monster name="Meganium" file="gen2/meganium.xml" />
@@ -725,162 +881,7 @@
 	<monster name="Farigiraf" file="gen9/farigiraf.xml" />
 	<monster name="Dudunsparce" file="gen9/dudunsparce.xml" />
 	<monster name="Iron Bundle" file="gen9/iron bundle.xml" />
-	<monster name="Gholdengo" file="gen9/gholdengo.xml" />
-	
-	
-	<!-- Shiny Gen 1 -->
-	
-	<monster name="Shiny Bulbasaur" file="shiny/Grama/Venenoso/shiny bulbasaur.xml" />
-	<monster name="Shiny Ivysaur" file="shiny/Grama/Venenoso/shiny ivysaur.xml" />
-	<monster name="Shiny Venusaur" file="shiny/Grama/Venenoso/shiny venusaur.xml" />
-	<monster name="Shiny Charmander" file="shiny/Fogo/shiny charmander.xml" />
-	<monster name="Shiny Charmeleon" file="shiny/Fogo/shiny charmeleon.xml" />
-	<monster name="Shiny Charizard" file="shiny/Fogo/Voador/shiny charizard.xml" />
-	<monster name="Shiny Squirtle" file="shiny/Agua/shiny squirtle.xml" />
-	<monster name="Shiny Wartortle" file="shiny/Agua/shiny wartortle.xml" />
-	<monster name="Shiny Blastoise" file="shiny/Agua/shiny blastoise.xml" />
-	<monster name="Shiny Caterpie" file="shiny/Inseto/shiny caterpie.xml" />
-	<monster name="Shiny Metapod" file="shiny/Inseto/shiny metapod.xml" />
-	<monster name="Shiny Butterfree" file="shiny/Inseto/Voador/shiny butterfree.xml" />
-	<monster name="Shiny Weedle" file="shiny/Inseto/Venenoso/shiny weedle.xml" />
-	<monster name="Shiny Kakuna" file="shiny/Inseto/Venenoso/shiny kakuna.xml" />
-	<monster name="Shiny Beedrill" file="shiny/Inseto/Venenoso/shiny beedrill.xml" />
-	<monster name="Shiny Pidgey" file="shiny/Normal/Voador/shiny pidgey.xml" />
-	<monster name="Shiny Pidgeotto" file="shiny/Normal/Voador/shiny pidgeotto.xml" />
-	<monster name="Shiny Pidgeot" file="shiny/Normal/Voador/shiny pidgeot.xml" />
-	<monster name="Shiny Rattata" file="shiny/Normal/shiny rattata.xml" />
-	<monster name="Shiny Raticate" file="shiny/Normal/shiny raticate.xml" />
-	<monster name="Shiny Spearow" file="shiny/Normal/Voador/shiny spearow.xml" />
-	<monster name="Shiny Fearow" file="shiny/Normal/Voador/shiny fearow.xml" />
-	<monster name="Shiny Ekans" file="shiny/Venenoso/shiny ekans.xml" />
-	<monster name="Shiny Arbok" file="shiny/Venenoso/shiny arbok.xml" />
-	<monster name="Shiny Pikachu" file="shiny/Eletrico/shiny pikachu.xml" />
-	<monster name="Shiny Raichu" file="shiny/Eletrico/shiny raichu.xml" />
-	<monster name="Shiny Sandshrew" file="shiny/Eletrico/shiny sandshrew.xml" />
-	<monster name="Shiny Sandslash" file="shiny/Terra/shiny sandslash.xml" />
-	<monster name="Shiny Nidoran Female" file="shiny/Venenoso/shiny nidoran female.xml" />
-	<monster name="Shiny Nidorina" file="shiny/Venenoso/shiny nidorina.xml" />
-	<monster name="Shiny Nidoqueen" file="shiny/Venenoso/Terra/shiny nidoqueen.xml" />
-	<monster name="Shiny Nidoran Male" file="shiny/Venenoso/shiny nidoran male.xml" />
-	<monster name="Shiny Nidorino" file="shiny/Venenoso/shiny nidorino.xml" />
-	<monster name="Shiny Nidoking" file="shiny/Venenoso/Terra/shiny nidoking.xml" />
-	<monster name="Shiny Clefairy" file="shiny/Fada/shiny clefairy.xml" />
-	<monster name="Shiny Clefable" file="shiny/Fada/shiny clefable.xml" />
-	<monster name="Shiny Vulpix" file="shiny/Fogo/shiny vulpix.xml" />
-	<monster name="Shiny Ninetales" file="shiny/Fogo/shiny ninetales.xml" />
-	<monster name="Shiny Jigglypuff" file="shiny/Normal/Fada/shiny jigglypuff.xml" />
-	<monster name="Shiny Wigglytuff" file="shiny/Normal/Fada/shiny wigglytuff.xml" />
-	<monster name="Shiny Zubat" file="shiny/Venenoso/Voador/shiny zubat.xml" />
-	<monster name="Shiny Golbat" file="shiny/Venenoso/Voador/shiny golbat.xml" />
-	<monster name="Shiny Oddish" file="shiny/Grama/Venenoso/shiny oddish.xml" />
-	<monster name="Shiny Gloom" file="shiny/Grama/Venenoso/shiny gloom.xml" />
-	<monster name="Shiny Vileplume" file="shiny/Grama/Venenoso/shiny vileplume.xml" />
-	<monster name="Shiny Paras" file="shiny/Inseto/Grama/shiny paras.xml" />
-	<monster name="Shiny Parasect" file="shiny/Inseto/Grama/shiny parasect.xml" />
-	<monster name="Shiny Venonat" file="shiny/Inseto/Venenoso/shiny venonat.xml" />
-	<monster name="Shiny Venomoth" file="shiny/Inseto/Venenoso/shiny venomoth.xml" />
-	<monster name="Shiny Diglett" file="shiny/Terra/shiny diglett.xml" />
-	<monster name="Shiny Dugtrio" file="shiny/Terra/shiny dugtrio.xml" />
-	<monster name="Shiny Meowth" file="shiny/Normal/shiny meowth.xml" />
-	<monster name="Shiny Persian" file="shiny/Normal/shiny persian.xml" />
-	<monster name="Shiny Psyduck" file="shiny/Agua/shiny psyduck.xml" />
-	<monster name="Shiny Golduck" file="shiny/Agua/shiny golduck.xml" />
-	<monster name="Shiny Mankey" file="shiny/Lutador/shiny mankey.xml" />
-	<monster name="Shiny Primeape" file="shiny/Lutador/shiny primeape.xml" />
-	<monster name="Shiny Growlithe" file="shiny/Fogo/shiny growlithe.xml" />
-	<monster name="Shiny Arcanine" file="shiny/Fogo/shiny arcanine.xml" />
-	<monster name="Shiny Poliwag" file="shiny/Agua/shiny poliwag.xml" />
-	<monster name="Shiny Poliwhirl" file="shiny/Agua/shiny poliwhirl.xml" />
-	<monster name="Shiny Poliwrath" file="shiny/Agua/Lutador/shiny poliwrath.xml" />
-	<monster name="Shiny Abra" file="shiny/Psiquico/shiny abra.xml" />
-	<monster name="Shiny Kadabra" file="shiny/Psiquico/shiny kadabra.xml" />
-	<monster name="Shiny Alakazam" file="shiny/Psiquico/shiny alakazam.xml" />
-	<monster name="Shiny Machop" file="shiny/Lutador/shiny machop.xml" />
-	<monster name="Shiny Machoke" file="shiny/Lutador/shiny machoke.xml" />
-	<monster name="Shiny Machamp" file="shiny/Lutador/shiny machamp.xml" />
-	<monster name="Shiny Bellsprout" file="shiny/Grama/Venenoso/shiny bellsprout.xml" />
-	<monster name="Shiny Weepinbell" file="shiny/Grama/Venenoso/shiny weepinbell.xml" />
-	<monster name="Shiny Victreebel" file="shiny/Grama/Venenoso/shiny victreebel.xml" />
-	<monster name="Shiny Tentacool" file="shiny/Agua/Venenoso/shiny tentacool.xml" />
-	<monster name="Shiny Tentacruel" file="shiny/Agua/Venenoso/shiny tentacruel.xml" />
-	<monster name="Shiny Geodude" file="shiny/Pedra/Terra/shiny geodude.xml" />
-	<monster name="Shiny Graveler" file="shiny/Pedra/Terra/shiny graveler.xml" />
-	<monster name="Shiny Golem" file="shiny/Pedra/Terra/shiny golem.xml" />
-	<monster name="Shiny Ponyta" file="shiny/Fogo/shiny ponyta.xml" />
-	<monster name="Shiny Rapidash" file="shiny/Fogo/shiny rapidash.xml" />
-	<monster name="Shiny Slowpoke" file="shiny/Agua/Psiquico/shiny slowpoke.xml" />
-	<monster name="Shiny Slowbro" file="shiny/Agua/Psiquico/shiny slowbro.xml" />
-	<monster name="Shiny Magnemite" file="shiny/Eletrico/shiny magnemite.xml" />
-	<monster name="Shiny Magneton" file="shiny/Eletrico/shiny magneton.xml" />
-	<monster name="Shiny Farfetch'd" file="shiny/Normal/Voador/shiny farfetch'd.xml" />
-	<monster name="Shiny Doduo" file="shiny/Normal/Voador/shiny doduo.xml" />
-	<monster name="Shiny Dodrio" file="shiny/Normal/Voador/shiny dodrio.xml" />
-	<monster name="Shiny Seel" file="shiny/Agua/shiny seel.xml" />
-	<monster name="Shiny Dewgong" file="shiny/Agua/Gelo/shiny dewgong.xml" />
-	<monster name="Shiny Grimer" file="shiny/Venenoso/shiny grimer.xml" />
-	<monster name="Shiny Muk" file="shiny/Venenoso/shiny muk.xml" />
-	<monster name="Shiny Shellder" file="shiny/Agua/shiny shellder.xml" />
-	<monster name="Shiny Cloyster" file="shiny/Agua/Gelo/shiny cloyster.xml" />
-	<monster name="Shiny Gastly" file="shiny/Fantasma/Venenoso/shiny gastly.xml" />
-	<monster name="Shiny Haunter" file="shiny/Fantasma/Venenoso/shiny haunter.xml" />
-	<monster name="Shiny Gengar" file="shiny/Fantasma/Venenoso/shiny gengar.xml" />
-	<monster name="Shiny Onix" file="shiny/Pedra/Terra/shiny onix.xml" />
-	<monster name="Shiny Drowzee" file="shiny/Psiquico/shiny drowzee.xml" />
-	<monster name="Shiny Hypno" file="shiny/Psiquico/shiny hypno.xml" />
-	<monster name="Shiny Krabby" file="shiny/Agua/shiny krabby.xml" />
-	<monster name="Shiny Kingler" file="shiny/Agua/shiny kingler.xml" />
-	<monster name="Shiny Voltorb" file="shiny/Eletrico/shiny voltorb.xml" />
-	<monster name="Shiny Electrode" file="shiny/Eletrico/shiny electrode.xml" />
-	<monster name="Shiny Exeggcute" file="shiny/Planta/Psiquico/shiny exeggcute.xml" />
-	<monster name="Shiny Exeggutor" file="shiny/Planta/Psiquico/shiny exeggutor.xml" />
-	<monster name="Shiny Cubone" file="shiny/Terra/shiny cubone.xml" />
-	<monster name="Shiny Marowak" file="shiny/Terra/shiny marowak.xml" />
-	<monster name="Shiny Hitmonlee" file="shiny/Lutador/shiny hitmonlee.xml" />
-	<monster name="Shiny Hitmonchan" file="shiny/Lutador/shiny hitmonchan.xml" />
-	<monster name="Shiny Lickitung" file="shiny/Normal/shiny lickitung.xml" />
-	<monster name="Shiny Koffing" file="shiny/Venenoso/shiny koffing.xml" />
-	<monster name="Shiny Weezing" file="shiny/Venenoso/shiny weezing.xml" />
-	<monster name="Shiny Rhyhorn" file="shiny/Terra/Pedra/shiny rhyhorn.xml" />
-	<monster name="Shiny Rhydon" file="shiny/Terra/Pedra/shiny rhydon.xml" />
-	<monster name="Shiny Chansey" file="shiny/Normal/shiny chansey.xml" />
-	<monster name="Shiny Tangela" file="shiny/Planta/shiny tangela.xml" />
-	<monster name="Shiny Kangaskhan" file="shiny/Normal/shiny kangaskhan.xml" />
-	<monster name="Shiny Horsea" file="shiny/Agua/shiny horsea.xml" />
-	<monster name="Shiny Seadra" file="shiny/Agua/shiny seadra.xml" />
-	<monster name="Shiny Goldeen" file="shiny/Agua/shiny goldeen.xml" />
-	<monster name="Shiny Seaking" file="shiny/Agua/shiny seaking.xml" />
-	<monster name="Shiny Staryu" file="shiny/Agua/shiny staryu.xml" />
-	<monster name="Shiny Starmie" file="shiny/Agua/Psiquico/shiny starmie.xml" />
-	<monster name="Shiny Mr. Mime" file="shiny/Psiquico/Fada/shiny mr. mime.xml" />
-	<monster name="Shiny Scyther" file="shiny/Inseto/Voador/shiny scyther.xml" />
-	<monster name="Shiny Jynx" file="shiny/Ice/Psiquico/shiny jynx.xml" />
-	<monster name="Shiny Electabuzz" file="shiny/Eletrico/shiny electabuzz.xml" />
-	<monster name="Shiny Magmar" file="shiny/Fogo/shiny magmar.xml" />
-	<monster name="Shiny Pinsir" file="shiny/Inseto/shiny pinsir.xml" />
-	<monster name="Shiny Tauros" file="shiny/Normal/shiny tauros.xml" />
-	<monster name="Shiny Magikarp" file="shiny/Agua/shiny magikarp.xml" />
-	<monster name="Shiny Gyarados" file="shiny/Agua/Voador/shiny gyarados.xml" />
-	<monster name="Shiny Lapras" file="shiny/Agua/Gelo/shiny lapras.xml" />
-	<monster name="Shiny Ditto" file="shiny/Normal/shiny ditto.xml" />
-	<monster name="Shiny Eevee" file="shiny/Normal/shiny eevee.xml" />
-	<monster name="Shiny Vaporeon" file="shiny/Agua/shiny vaporeon.xml" />
-	<monster name="Shiny Jolteon" file="shiny/Eletrico/shiny jolteon.xml" />
-	<monster name="Shiny Flareon" file="shiny/Fogo/shiny flareon.xml" />
-	<monster name="Shiny Porygon" file="shiny/Normal/shiny porygon.xml" />
-	<monster name="Shiny Omanyte" file="shiny/Rocha/Agua/shiny omanyte.xml" />
-	<monster name="Shiny Omastar" file="shiny/Rocha/Agua/shiny omastar.xml" />
-	<monster name="Shiny Kabuto" file="shiny/Rocha/Agua/shiny kabuto.xml" />
-	<monster name="Shiny Kabutops" file="shiny/Rocha/Agua/shiny kabutops.xml" />
-	<monster name="Shiny Aerodactyl" file="shiny/Rocha/Voador/shiny aerodactyl.xml" />
-	<monster name="Shiny Snorlax" file="shiny/Normal/shiny snorlax.xml" />
-	<monster name="Shiny Articuno" file="shiny/Gelo/Voador/shiny articuno.xml" />
-	<monster name="Shiny Zapdos" file="shiny/Eletrico/Voador/shiny zapdos.xml" />
-	<monster name="Shiny Moltres" file="shiny/Fogo/Voador/shiny moltres.xml" />
-	<monster name="Shiny Dratini" file="shiny/Dragao/shiny dratini.xml" />
-	<monster name="Shiny Dragonair" file="shiny/Dragao/shiny dragonair.xml" />
-	<monster name="Shiny Dragonite" file="shiny/Dragao/Voador/shiny dragonite.xml" />
-	<monster name="Shiny Mewtwo" file="shiny/Psiquico/shiny mewtwo.xml" />
-	<monster name="Shiny Mew" file="shiny/Psiquico/shiny mew.xml" />
+	<monster name="Gholdengo" file="gen9/gholdengo.xml" /> -->
 	
 	<!-- Shiny Gen 2 -->
 	
